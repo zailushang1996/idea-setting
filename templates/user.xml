@@ -1,0 +1,43 @@
+<templateSet group="user">
+  <template name="pvf" value="public void $Function_Name$(){&#10;        $END$&#10;    }" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="Function_Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="psvf" value="public static void $function$ () {&#10;        $end$&#10;    }" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ress" value="response.setContentType(&quot;text/html;charset=UTF-8&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="reqs" value="request.setCharacterEncoding(&quot;UTF-8&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="&lt;" value="&lt;!--$END$--&gt;&#10;" description="HTML注释" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="logger" value="private final static Logger log = LogManager.getLogger($CLASS_NAME$.class);" description="日志输出" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="sflog" value="private final static Logger log = LoggerFactory.getLogger($Class_Name$.class);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="Class_Name" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,12 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="MySQL" injector-id="java">
+      <display-name>DbDao.query (com)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.DbDao"))]]></place>
+    </injection>
+    <injection language="HTML" injector-id="java">
+      <display-name>PrintWriter.write (java.io)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("write").withParameters("java.lang.String").definedInClass("java.io.PrintWriter"))]]></place>
+    </injection>
+  </component>
+</application>

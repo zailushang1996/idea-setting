@@ -1,0 +1,12 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="二阶段复习笔记" type="PLAIN_TEXT" />
+      <mapping pattern="二阶段复习笔记.txt" type="PLAIN_TEXT" />
+      <mapping pattern="shiro-realm.ini" type="PLAIN_TEXT" />
+      <mapping pattern="User.properties" type="Properties" />
+      <mapping pattern="file" type="Properties" />
+      <mapping pattern="User" type="Properties" />
+    </extensionMap>
+  </component>
+</application>

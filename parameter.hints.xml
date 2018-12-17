@@ -1,0 +1,14 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="Java">
+        <added pattern="java.lang.String.split(regex)" />
+        <added pattern="org.hibernate.SharedSessionContract.createQuery(s)" />
+      </blacklist>
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
+    </blacklists>
+    <option id="java.multiple.params.same.type" value="true" />
+  </component>
+</application>
