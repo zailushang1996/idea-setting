@@ -1,6 +1,6 @@
 <keymap version="1" name="Default copy" parent="$default">
-  <action id="ChangesView.AddUnversioned">
-    <keyboard-shortcut first-keystroke="alt a" />
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="CreateServletAction">
     <keyboard-shortcut first-keystroke="alt s" />
