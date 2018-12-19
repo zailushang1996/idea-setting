@@ -46,6 +46,10 @@
           <option name="url" value="https://gitee.com/zailushang6991/java-design-patterns.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/zailushang6991/socket_system_learn.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\IdeaWorkspace\GitHub" />
